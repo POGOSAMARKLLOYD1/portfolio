@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Mark Lloyd B. Pogosa</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate web developer with experience in building modern, responsive websites and applications. I specialize in front-end technologies like HTML, CSS, and JavaScript, and have hands-on experience with frameworks like React and Node.js. I'm always learning new skills and staying updated with the latest web development trends.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>This is the portfolio website you're currently viewing, built with HTML and CSS. It's responsive and user-friendly.</p>
+                <a href="https://your-project-link.com" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Task Manager App</h3>
+                <p>A full-stack web application for managing tasks, built using React for the frontend and Node.js for the backend.</p>
+                <a href="https://your-project-link.com" target="_blank" class="btn">View Project</a>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> HTML, CSS, JavaScript, Node.js</li>
+                <li><strong>Frameworks:</strong> React, Express</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+                <li><strong>Tools:</strong> NPM, Webpack, Figma</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
